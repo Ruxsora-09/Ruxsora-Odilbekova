@@ -1,0 +1,106 @@
+/* ===== Ruxsora's Simple Futuristic Portfolio ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0a0f1a, #000);
+  color: #f1f1f1;
+  line-height: 1.6;
+  padding: 0 10%;
+}
+
+header {
+  text-align: center;
+  padding: 80px 0 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00e0ff;
+  text-shadow: 0 0 10px #00e0ff;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+section {
+  margin: 60px 0;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 224, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(0, 224, 255, 0.3);
+}
+
+h2 {
+  color: #00e0ff;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.about p,
+.goals p {
+  color: #ddd;
+  font-size: 1rem;
+}
+
+.education ul {
+  list-style: none;
+  color: #ddd;
+  font-size: 1rem;
+}
+
+.education li {
+  margin: 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid #00e0ff;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-list span {
+  background: linear-gradient(135deg, #00e0ff, #0077ff);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.skill-list span:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00e0ff;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #888;
+  font-size: 0.9rem;
+}
+
+footer p span {
+  color: #00e0ff;
+}
+
