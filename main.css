@@ -161,3 +161,33 @@ nav a {
 nav a:hover {
   color: #fff;
 }
+
+.contact {
+  text-align: center;
+  margin: 60px 0;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 224, 255, 0.1);
+}
+
+.contact h2 {
+  color: #00e0ff;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: #ccc;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.contact a {
+  color: #00e0ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #fff;
+}
